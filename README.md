@@ -1,6 +1,6 @@
 # PokeHunterBot
 
-PokeHunterBot is a Java-based bot designed to streamline interactions in the Pokemon game world. It utilizes the Java Robot class to send inputs, providing users with a tool to enhance their gaming experience.
+PokeHunterBot is a Java-based bot designed to streamline interactions in the Pokemon game world. It utilizes the Java Robot class to send inputs, providing users with a tool to simplofy their shiny hunting experience.
 
 ## Detection Methods
 
