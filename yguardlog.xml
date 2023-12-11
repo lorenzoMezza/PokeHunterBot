@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yguard version="1.5">
+<!--
+  yGuard Bytecode Obfuscator, v4.0.0, a Product of yWorks GmbH - http://www.yworks.com
+
+  Logfile created on Fri Nov 10 09:08:13 CET 2023
+
+  Jar file to be obfuscated:           PokeMMoNew.jar
+  Target Jar file for obfuscated code: yguard_temp_7393835693592498410.jar
+
+-->
+<!-- WARNING
+Methods are called which may break in obfuscated version at runtime.
+Please review your source code to ensure that the dangerous methods are not intended
+to act on classes which have been obfuscated.
+-->
+<!--
+     Your class org.apache.tools.ant.taskdefs.Ant calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector calls the java.lang.Class method java.lang.reflect.Field getField(java.lang.String)
+-->
+<!--
+     Your class org.apache.tools.ant.taskdefs.ExecuteJava calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.apache.tools.ant.types.Path calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.apache.tools.ant.types.XMLCatalog$ExternalResolver calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.apache.tools.ant.taskdefs.rmic.SunRmic calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.apache.tools.ant.Project calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.slf4j.helpers.SubstituteLogger calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.apache.tools.ant.TaskAdapter calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.apache.tools.ant.taskdefs.rmic.DefaultRmicAdapter$RmicFileNameMapper calls the java.lang.ClassLoader method java.lang.Class loadClass(java.lang.String)
+-->
+<!--
+     Your class org.apache.tools.ant.AntClassLoader calls the java.lang.ClassLoader method java.lang.Class findLoadedClass(java.lang.String)
+     Your class org.apache.tools.ant.AntClassLoader calls the java.lang.ClassLoader method java.lang.Class findSystemClass(java.lang.String)
+     Your class org.apache.tools.ant.AntClassLoader calls the java.lang.ClassLoader method java.lang.Class loadClass(java.lang.String)
+     Your class org.apache.tools.ant.AntClassLoader calls the java.lang.Class method java.lang.reflect.Method getDeclaredMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.apache.tools.ant.taskdefs.optional.ejb.WeblogicDeploymentTool calls the java.lang.ClassLoader method java.lang.Class loadClass(java.lang.String)
+-->
+<!--
+     Your class com.yworks.yguard.obf.Cl$ExtNameListUp calls the java.lang.Class method java.lang.reflect.Field getDeclaredField(java.lang.String)
+     Your class com.yworks.yguard.obf.Cl$ExtNameListUp calls the java.lang.Class method java.lang.reflect.Field getField(java.lang.String)
+-->
+<!--
+     Your class org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector calls the java.lang.ClassLoader method java.lang.Class loadClass(java.lang.String)
+-->
+<!--
+     Your class org.apache.tools.ant.taskdefs.optional.ejb.WebsphereDeploymentTool calls the java.lang.ClassLoader method java.lang.Class loadClass(java.lang.String)
+-->
+<!--
+     Your class org.apache.pdfbox.io.IOUtils calls the java.lang.Class method java.lang.reflect.Field getDeclaredField(java.lang.String)
+     Your class org.apache.pdfbox.io.IOUtils calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class com.fasterxml.jackson.databind.introspect.AnnotatedMethod calls the java.lang.Class method java.lang.reflect.Method getDeclaredMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class com.fasterxml.jackson.databind.util.ClassUtil calls the java.lang.ClassLoader method java.lang.Class loadClass(java.lang.String)
+-->
+<!--
+     Your class com.fasterxml.jackson.databind.jdk14.JDK14Util$RecordAccessor calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.apache.tools.ant.taskdefs.optional.jsp.compilers.JasperC calls the java.lang.ClassLoader method java.lang.Class loadClass(java.lang.String)
+-->
+<!--
+     Your class org.apache.tools.ant.ProjectHelperRepository calls the java.lang.ClassLoader method java.lang.Class loadClass(java.lang.String)
+-->
+<!--
+     Your class org.apache.tools.ant.taskdefs.Available calls the java.lang.ClassLoader method java.lang.Class loadClass(java.lang.String)
+-->
+<!--
+     Your class org.apache.tools.ant.taskdefs.compilers.Javac13 calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.apache.commons.logging.impl.ServletContextCleaner calls the java.lang.ClassLoader method java.lang.Class loadClass(java.lang.String)
+     Your class org.apache.commons.logging.impl.ServletContextCleaner calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.apache.tools.ant.taskdefs.compilers.Javac12 calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.apache.tools.ant.taskdefs.optional.native2ascii.SunNative2Ascii calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.apache.tools.ant.taskdefs.optional.TraXLiaison calls the java.lang.Class method java.lang.reflect.Field getDeclaredField(java.lang.String)
+-->
+<!--
+     Your class org.apache.tools.ant.taskdefs.Rmic calls the java.lang.ClassLoader method java.lang.Class loadClass(java.lang.String)
+-->
+<!--
+     Your class org.apache.tools.ant.filters.ClassConstants calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.apache.tools.ant.Diagnostics calls the java.lang.Class method java.lang.reflect.Method getMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.apache.commons.logging.impl.Log4JLogger calls the java.lang.Class method java.lang.reflect.Field getDeclaredField(java.lang.String)
+-->
+<!--
+     Your class org.apache.tools.ant.taskdefs.condition.HasMethod calls the java.lang.ClassLoader method java.lang.Class loadClass(java.lang.String)
+     Your class org.apache.tools.ant.taskdefs.condition.HasMethod calls the java.lang.ClassLoader method java.lang.Class loadClass(java.lang.String)
+-->
+<!--
+     Your class com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector calls the java.lang.Class method java.lang.reflect.Method getDeclaredMethod(java.lang.String, java.lang.Class[])
+-->
+<!-- ERROR - corrupt class file: jar:C:\Users\mezza\Desktop\PokeMMoNew\out\artifacts\PokeMMoNew_jar\PokeMMoNew.jar|META-INF/versions/19/com/fasterxml/jackson/core/io/doubleparser/FastIntegerMath$UInt128.class -->
+java.io.IOException: Incompatible version number for class file format: 63.0
+	at com.yworks.yguard.obf.classfile.ClassFile.read(ClassFile.java:355)
+	at com.yworks.yguard.obf.classfile.ClassFile.create(ClassFile.java:154)
+	at com.yworks.yguard.obf.GuardDB.buildClassTree(GuardDB.java:721)
+	at com.yworks.yguard.obf.GuardDB.retain(GuardDB.java:150)
+	at com.yworks.yguard.ObfuscatorTask.execute(ObfuscatorTask.java:1224)
+	at com.yworks.yguard.YGuardTask.execute(YGuardTask.java:118)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:292)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:435)
+	at org.apache.tools.ant.Target.performTasks(Target.java:456)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1393)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1364)
+	at org.apache.maven.plugin.antrun.AntRunMojo.execute(AntRunMojo.java:313)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:126)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:342)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:330)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:213)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:175)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.access$000(MojoExecutor.java:76)
+	at org.apache.maven.lifecycle.internal.MojoExecutor$1.run(MojoExecutor.java:163)
+	at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute(DefaultMojosExecutionStrategy.java:39)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:160)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:105)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:73)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:53)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:118)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:261)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:173)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:101)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:910)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:283)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:206)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:283)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:226)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:407)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:348)
+	at org.codehaus.classworlds.Launcher.main(Launcher.java:47)
+</yguard>
