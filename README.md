@@ -14,7 +14,7 @@ PokeHunterBot employs two robust methods for detecting shiny Pokémon encounters
    - Ensures accurate detection during shiny encounters.
 
 2. **OCR in Customizable Paths:**
-   - Customizable paths use Optical Character Recognition (OCR) with [Tesseract](https://github.com/tesseract-ocr/tessdata/releases).
+   - Customizable paths use Optical Character Recognition (OCR) with [Tesseract](https://github.com/nguyenq/tess4j).
    - Verifies the English word "shiny" during battles near the Pokémon's name.
    - Provides flexibility for users to define their paths.
 
