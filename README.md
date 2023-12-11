@@ -31,7 +31,7 @@ Each action by PokeHunterBot is timed randomly to emulate human behavior:
    - Random intervals between actions enhance human-like interaction.
    - Mouse movements mimic natural motions, providing an authentic experience.
 
-### Safety and Gratitude
+### Safety
 
 PokeHunterBot prioritizes safety and user experience:
    - **Safety Measures:** Operates within the game's constraints to avoid detection and sanctions.
