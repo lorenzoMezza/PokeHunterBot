@@ -67,6 +67,3 @@ PokeHunterBot prioritizes safety and user experience:
 - [Shiny Pokémon Hunter Guide](#link-to-shiny-pokémon-hunter-guide)
 - [YouTube Video Tutorial](#link-to-youtube-video-tutorial)
 
-## Acknowledgments
-
-PokeHunterBot extends gratitude to the [NaturalMouseMotion](https://github.com/JoonasVali/NaturalMouseMotion.git) creator for contributing to the authentic mouse motion capabilities in the bot.
