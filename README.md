@@ -1,33 +1,72 @@
 # PokeHunterBot
 
-PokeHunterBot is a Java-based bot designed to streamline interactions in the Pokemon game world. It utilizes the Java Robot class to send inputs, providing users with a tool to simplify their shiny hunting experience.
+PokeHunterBot is a Java-based automation tool crafted to elevate your Pokémon gaming experience. Utilizing the Java Robot class, this bot sends precise inputs for character movement and in-game actions. Its primary focus is efficient detection and handling of shiny Pokémon encounters.
 
-## Detection Methods
+## Features and Methods
 
-The bot employs two methods to identify shiny Pokemon encounters:
+### Shiny Pokémon Detection
 
-1. **Default Hard-Coded Paths:**
-   - Verifies specific pixels near the Pokemon's name, indicating a shiny encounter.
+PokeHunterBot employs two robust methods for detecting shiny Pokémon encounters:
 
-2. **Customizable Paths:**
-   - Utilizes OCR (Optical Character Recognition) from [Tesseract Releases](https://github.com/tesseract-ocr/tessdata/releases) to detect the word "shiny" during battles near the Pokemon's name.
+1. **Pixel Detection in Hard-Coded Paths:**
+   - Default paths use pixel detection near the Pokémon's name.
+   - Specific pixels are checked, signaling a shiny encounter.
+   - Ensures accurate detection during shiny encounters.
 
-## Anti-AFK Mode
+2. **OCR in Customizable Paths:**
+   - Customizable paths use Optical Character Recognition (OCR) with [Tesseract](https://github.com/tesseract-ocr/tessdata/releases).
+   - Verifies the English word "shiny" during battles near the Pokémon's name.
+   - Provides flexibility for users to define their paths.
 
-When a shiny Pokemon is encountered, the bot enters anti-AFK mode, simulating human-like clicks to emulate a player idling. A sound alert notifies the player of the shiny Pokemon, leaving the responsibility of capture to the user.
+### Anti-AFK Mode
+
+When a shiny Pokémon is detected, PokeHunterBot enters Anti-AFK mode:
+   - Human-like clicks simulate player activity, preventing AFK detection.
+   - A sound alert notifies the player of the shiny encounter.
+   - Leaves the responsibility of capturing the shiny Pokémon to the player.
+
+### Randomized Timing and Natural Mouse Motions
+
+Each action by PokeHunterBot is timed randomly to emulate human behavior:
+   - Random intervals between actions enhance human-like interaction.
+   - Mouse movements mimic natural motions, providing an authentic experience.
+
+### Safety and Gratitude
+
+PokeHunterBot prioritizes safety and user experience:
+   - **Safety Measures:** Operates within the game's constraints to avoid detection and sanctions.
+   - **Gratitude to NaturalMouseMotion Creator:** Special thanks to [JoonasVali](https://github.com/JoonasVali/NaturalMouseMotion.git) for enabling natural mouse motions in the bot.
+
+## Additional Information
+
+### Capacity and Advantages
+
+- **Versatile Custom Paths:**
+  - Users can create custom paths tailored to specific gameplay requirements.
+  - Path customization allows flexibility and adaptability in different gaming scenarios.
+
+- **Efficient Shiny Pokémon Handling:**
+  - Pixel detection and OCR combination ensures accurate shiny Pokémon identification.
+  - Anti-AFK mode optimizes the capture process, allowing players to intervene during shiny encounters.
+
+- **Randomization for Human-Like Behavior:**
+  - Randomized timing and mouse movements enhance the bot's human-like behavior, minimizing the risk of detection.
+
+### Important Considerations
+
+- **Policy Adherence:**
+  - Users are advised to use PokeHunterBot responsibly and adhere to the game's policies.
+  - Breaking game policies may result in sanctions, and usage is entirely at the user's risk.
+
+- **System Requirements:**
+  - Ensure Java 8 or higher is installed on your system for effective PokeHunterBot operation.
+
+## Guides and Tutorial
+
+- [Custom Path Editor Guide](#link-to-custom-path-editor-guide)
+- [Shiny Pokémon Hunter Guide](#link-to-shiny-pokémon-hunter-guide)
+- [YouTube Video Tutorial](#link-to-youtube-video-tutorial)
 
 ## Acknowledgments
 
-Special thanks to [NaturalMouseMotion](https://github.com/JoonasVali/NaturalMouseMotion.git) for providing the means to achieve natural mouse motions in the bot process.
-
-## How to Use
-
-Refer to the [GUIDE.pdf](https://github.com/LorenzoMezza/PokeHunterBot/files/13631786/GUIDE.pdf) for a comprehensive guide on using the bot.
-
-## Creating Custom Paths
-
-Explore the [CUSTOMPATHGUIDE.pdf](https://github.com/LorenzoMezza/PokeHunterBot/files/13631790/CUSTOMPATHGUIDE.pdf) for instructions on creating custom paths.
-
-## Video Tutorial
-
-Watch the video tutorial on [YouTube](https://www.youtube.com/watch?v=NeBkJnjdOfA) for a visual walkthrough of PokeHunterBot in action.
+PokeHunterBot extends gratitude to the [NaturalMouseMotion](https://github.com/JoonasVali/NaturalMouseMotion.git) creator for contributing to the authentic mouse motion capabilities in the bot.
