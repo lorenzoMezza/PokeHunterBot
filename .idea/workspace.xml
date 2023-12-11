@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PokeMMoNew:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b88e7665-9315-4c84-910d-5e90bf732060" name="Changes" comment="none">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tessdata/eng.cube.bigrams" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tessdata/eng.cube.fold" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tessdata/eng.cube.lm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tessdata/eng.cube.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tessdata/eng.cube.params" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tessdata/eng.cube.size" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tessdata/eng.cube.word-freq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tessdata/eng.tesseract_cube.nn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tessdata/eng.traineddata" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2XO4s5ycE5eTzhBRci9xi5dPDPI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE&quot;: &quot;right&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH&quot;: &quot;145&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE&quot;: &quot;left&quot;,
+    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;277&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lorenzo/Desktop/PokéHunterBot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.40578035&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lorenzo\Desktop\PokéHunterBot\src\main\resources\tessdata" />
+      <recent name="C:\Users\lorenzo\Desktop\PokeMMoNew\target" />
+      <recent name="C:\Users\mezza\Desktop\PokeMMoNew\src\main\resources\Logo" />
+      <recent name="C:\Users\mezza\Desktop\PokeMMoNew\src\main\resources\Logo\tessdata" />
+      <recent name="C:\Users\mezza\Desktop\PokeMMoNew\src\main\resources\Logo\tessdata1" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="View" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="View.Main" />
+      <module name="PokeMMoNew" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.asprise.ocr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b88e7665-9315-4c84-910d-5e90bf732060" name="Changes" comment="" />
+      <created>1698486998192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698486998192</updated>
+      <workItem from="1698486999222" duration="27044000" />
+      <workItem from="1698545675906" duration="6822000" />
+      <workItem from="1698552530822" duration="79000" />
+      <workItem from="1698552621687" duration="18000" />
+      <workItem from="1698552649264" duration="16715000" />
+      <workItem from="1698575415481" duration="5090000" />
+      <workItem from="1698583746265" duration="335000" />
+      <workItem from="1698584232966" duration="464000" />
+      <workItem from="1698585787524" duration="83000" />
+      <workItem from="1698585881787" duration="12183000" />
+      <workItem from="1698598807412" duration="1038000" />
+      <workItem from="1698634944192" duration="343000" />
+      <workItem from="1698635301539" duration="12925000" />
+      <workItem from="1698651179715" duration="21267000" />
+      <workItem from="1698676374386" duration="2710000" />
+      <workItem from="1698679109990" duration="6641000" />
+      <workItem from="1698689771666" duration="11474000" />
+      <workItem from="1698758117202" duration="3427000" />
+      <workItem from="1698858526947" duration="32000" />
+      <workItem from="1698858577946" duration="7322000" />
+      <workItem from="1698866482998" duration="9463000" />
+      <workItem from="1698878404046" duration="8280000" />
+      <workItem from="1698921255288" duration="19772000" />
+      <workItem from="1699009034247" duration="751000" />
+      <workItem from="1699018478065" duration="10980000" />
+      <workItem from="1699070863106" duration="65340000" />
+      <workItem from="1699289952399" duration="7128000" />
+      <workItem from="1699299700519" duration="48000" />
+      <workItem from="1699573436495" duration="1533000" />
+      <workItem from="1699576496152" duration="275000" />
+      <workItem from="1699576824825" duration="64000" />
+      <workItem from="1699577899986" duration="2681000" />
+      <workItem from="1699580677175" duration="423000" />
+      <workItem from="1699598522736" duration="1268000" />
+      <workItem from="1699599807474" duration="50000" />
+      <workItem from="1699599870717" duration="2467000" />
+      <workItem from="1699603169752" duration="1864000" />
+      <workItem from="1699605639093" duration="2458000" />
+      <workItem from="1699640503927" duration="6171000" />
+      <workItem from="1699655827510" duration="338000" />
+      <workItem from="1699656183817" duration="311000" />
+      <workItem from="1699656854833" duration="474000" />
+      <workItem from="1699661837942" duration="2931000" />
+      <workItem from="1699730972703" duration="4497000" />
+      <workItem from="1699751540440" duration="604000" />
+      <workItem from="1699754151979" duration="3000" />
+      <workItem from="1699815902552" duration="53000" />
+      <workItem from="1699816054468" duration="12000" />
+      <workItem from="1699816132396" duration="569000" />
+      <workItem from="1700470666267" duration="781000" />
+      <workItem from="1700488879352" duration="1346000" />
+      <workItem from="1700553479083" duration="22656000" />
+      <workItem from="1700636796067" duration="9303000" />
+      <workItem from="1700646490894" duration="399000" />
+      <workItem from="1700646913809" duration="22642000" />
+      <workItem from="1700723638443" duration="865000" />
+      <workItem from="1700724670934" duration="616000" />
+      <workItem from="1700726152936" duration="1298000" />
+      <workItem from="1700744942253" duration="626000" />
+      <workItem from="1700746180950" duration="7870000" />
+      <workItem from="1700814777654" duration="3453000" />
+      <workItem from="1700820849710" duration="635000" />
+      <workItem from="1700821497394" duration="85000" />
+      <workItem from="1700824863186" duration="2563000" />
+      <workItem from="1700827705458" duration="223000" />
+      <workItem from="1700827941186" duration="338000" />
+      <workItem from="1700828311670" duration="181000" />
+      <workItem from="1700828503528" duration="6548000" />
+      <workItem from="1701534412224" duration="974000" />
+      <workItem from="1701535744515" duration="968000" />
+      <workItem from="1701651608742" duration="138000" />
+      <workItem from="1702273671266" duration="478000" />
+      <workItem from="1702274162043" duration="653000" />
+    </task>
+    <task id="LOCAL-00001" summary="none">
+      <option name="closed" value="true" />
+      <created>1702274458536</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702274458536</updated>
+    </task>
+    <task id="LOCAL-00002" summary="none">
+      <option name="closed" value="true" />
+      <created>1702274561702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702274561702</updated>
+    </task>
+    <task id="LOCAL-00003" summary="none">
+      <option name="closed" value="true" />
+      <created>1702274566986</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702274566986</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="none" />
+    <option name="LAST_COMMIT_MESSAGE" value="none" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/View/Main.java</url>
+          <line>32</line>
+          <properties field="mainPanel" class="View.Main" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/WriteYourOwnPath/CustomPathWaiter.java</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/View/CustomPathDIalog.java</url>
+          <line>359</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
