@@ -22,7 +22,6 @@ public class InstructionParser {
             String trimmedInstruction = instruction.trim();
 
             if (trimmedInstruction.equals("escape")) {
-                // Istruzione di attesa senza tempo specificato
                 continue;
             }
 
@@ -57,12 +56,10 @@ public class InstructionParser {
     }
 
     private static boolean isValidKey(String key) {
-        // Verifica se il tasto è valido
         return key.matches("(up|down|left|wait|right|1|2|3|z|x)");
     }
 
     private static boolean isValidTime(String time) {
-        // Verifica se il tempo è un numero intero positivo
         try {
             int milliseconds = Integer.parseInt(time);
             return milliseconds >= 0;
