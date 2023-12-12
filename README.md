@@ -63,5 +63,5 @@ PokeHunterBot prioritizes safety and user experience:
 
 ## Guides and Tutorial
 
-- [YouTube Video Tutorial](#link-to-youtube-video-tutorial)
+- [YouTube Video Tutorial](https://www.youtube.com/watch?v=NeBkJnjdOfA&t=6s)
 
