@@ -97,14 +97,4 @@ public class InstructionSaver {
     }
 
 
-
-    public static void main(String[] args) {
-        System.out.println( FILE_NAME);
-        // Esempio di istruzioni
-
-
-
-
-
-    }
 }
