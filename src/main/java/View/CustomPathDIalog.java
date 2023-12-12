@@ -383,13 +383,13 @@ public class CustomPathDIalog extends JFrame {
     public static String getSubstringAfterSymbol(String input, String symbol) {
         int index = input.indexOf(symbol);
 
-        // Verifica se il simbolo è presente nella stringa
+  
         if (index != -1) {
-            // Estrai la parte della stringa che segue il simbolo
+       
             System.out.println(input.substring(index + 1));
             return input.substring(index + 1);
         } else {
-            // Se il simbolo non è presente, restituisci la stringa originale
+          
             System.out.println(input.substring(index + 1));
             return input;
 
@@ -419,13 +419,11 @@ public class CustomPathDIalog extends JFrame {
     public static String getSubstringBeforeSymbol(String input, String symbol) {
         int index = input.indexOf(symbol);
 
-        // Verifica se il simbolo è presente nella stringa
-        if (index != -1) {
-            // Estrai la parte della stringa che precede il simbolo
+     
+        if (index != -1) {       
             System.out.println(input.substring(0, index));
             return input.substring(0, index);
         } else {
-            // Se il simbolo non è presente, restituisci la stringa originale
             System.out.println(input + "d");
             return input;
         }
