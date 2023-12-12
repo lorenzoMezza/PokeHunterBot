@@ -3,7 +3,6 @@ package View;
 import Helper.*;
 import Logic.BackgroundPanel;
 import Logic.WorkFlowManager;
-
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -22,17 +21,12 @@ import java.util.concurrent.ScheduledExecutorService;
 
 public class Main extends JFrame   {
     private boolean isTeleportaEnable = false;
-
     private boolean isAnticaptchaEnable= true;;
-
     private boolean isBicicleEnable= false;
     private boolean canIIncreaseEncounter = true;
     private int encounter;
-
     private JLabel StartButton;
     private JPanel mainPanel;
-
-
     private boolean dontMOve = false;
     private JPanel rightpanel;
     private JPanel leftpanel;
@@ -46,70 +40,26 @@ public class Main extends JFrame   {
     private JButton STOPHUNTINGButton;
     private JCheckBox useAntiCaptchaCheckBox;
     private JCheckBox useTeleportCheckBox;
-    private char char1 = 'h';
-    private char char2 = 't';
-    private char char3 = 't';
-    private char char4 = 'p';
-    private char char5 = 's';
-    private char char6 = ':';
-    private char char7 = '/';
-    private char char8 = '/';
-    private char char9 = 'p';
-    private char char10 = 'a';
-    private char char11 = 'y';
-    private char char12 = 'p';
-    private char char13 = 'a';
-    private char char14 = 'l';
-    private char char15 = '.';
-    private char charmac1 = 'm';
-    private char char15mac2 = 'e';
-    private char char15mac3 = '/';
-    private char char16 = 'm';
-    private char char17 = 'e';
-    private char char18 = 'z';
-    private char char19 = 'z';
-    private char char20 = 'a';
-    private char char44 = 'b';
-    private char char45 = 'a';
-    private char char21 = 'r';
-    private char char22 = 'b';
-    private char char23 = 'a';
     private JCheckBox useBicicle;
     private JLabel donationLabel;
-
     public static boolean freezeMainWindow = false;
     private JLabel NeedHelp;
     private JLabel startingLabel;
     private JLabel stioppinglabel;
     private JLabel PokemonEncouterLabel;
-
-
     private static int sleectIndexCombobox1 = -1;
-
     private String currentSelectLocation= "MEMORIDE (Sinnoh), x5 Psyduck, Sweet Scent hunting";
-
-
-   public static Main instance;
-
-     private Thread botThread = null;
-
-     private  WorkFlowManager workFlowManager;
-
-     ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
-        private  UIManager.LookAndFeelInfo[] lookAndFeels = UIManager.getInstalledLookAndFeels();
-
-
+    public static Main instance;
+    private Thread botThread = null;
+    private  WorkFlowManager workFlowManager;
+    ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+    private  UIManager.LookAndFeelInfo[] lookAndFeels = UIManager.getInstalledLookAndFeels();
     public static JFrame mainFrame;
-
     private String[] locationsOption = {"CELESTIC TOWN (Sinnoh), x5 Psyduck, Sweet Scent hunting","SNOWPOINT CITY (Sinnoh), x5 Snover/Noctowl, Sweet Scent hunting","ETERNA CITY (Sinnoh), x3 Bidoof/Buizel, Sweet Scent hunting","FLOAROMA TOWN (Sinnoh), x3 Shinx/Pachirisu, Sweet Scent hunting","SANDGEM TOWN (Sinnoh), x5 Wingull, Sweet Scent hunting",
             "VERMILION CITY (Kanto), x5 Tentacool, Sweet Scent hunting", "ROUTE 4 (Kanto), x3 Zubat, Sweet Scent hunting", "LAVENDER TOWN 1 (Kanto), x3 Gastly, Sweet Scent hunting"};
-
     private static int numberOfSeetScentAvaible = 0;
-
     public static boolean isPathCostumDialOpen = false;
-
     private String[] harcodedPAth;
-
 
     public Main() throws AWTException {
         mainFrame = this;
@@ -133,17 +83,7 @@ public class Main extends JFrame   {
                 e.printStackTrace();
             }
         }
-
-
-
-
-
-
-
-
-
-
-        try {
+         try {
             Image img = ImageIO.read(Objects.requireNonNull(getClass().getClassLoader().getResource("Logo/BG.png")));
 
             setLayout(new BorderLayout());
@@ -165,14 +105,10 @@ public class Main extends JFrame   {
         }
 
 
-
-
-
         setTitle("PokéHunterBot (BETA VERSION)");
         setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);;
         setSize(820,420);
         setLocationRelativeTo(null);
-
         setVisible(true);
         setResizable(false);
         addWindowListener(new WindowAdapter() {
@@ -187,7 +123,6 @@ public class Main extends JFrame   {
                 }
             }
         });
-
         Map<TextAttribute, Object> DonationfontAttributes = new HashMap<>();
         DonationfontAttributes.put(TextAttribute.UNDERLINE, TextAttribute.UNDERLINE_ON);
         DonationfontAttributes.put(TextAttribute.POSTURE, TextAttribute.POSTURE_OBLIQUE);
@@ -198,17 +133,12 @@ public class Main extends JFrame   {
         Font font = new Font(DonationfontAttributes);
     donationLabel.setFont(font);
 
-
-
-
-
         instance = this;
         for (String location: locationsOption
              ) {
             comboBox1.addItem(location);
-
-
         }
+        
         comboBox1.setSelectedIndex(-1);
         sleectIndexCombobox1 = -1;
         comboBox1.addActionListener(new ActionListener() {
@@ -237,8 +167,6 @@ public class Main extends JFrame   {
                         CustomPathDIalog customPathDIalog = new CustomPathDIalog(currentSelectLocation);
                         isPathCostumDialOpen = true;
                         setEnabled(false);
-
-
                     }
                     else{
                         ManageCheckBoxVisibility();
@@ -247,7 +175,6 @@ public class Main extends JFrame   {
                             sleectIndexCombobox1 = -1;
                             comboBox1.setSelectedIndex(-1);
                             ManageCheckBoxVisibility();
-
                         }
                         else{
                             Main.numberOfSeetScentAvaible = (int)number/5;
@@ -256,18 +183,11 @@ public class Main extends JFrame   {
 
                         }
                     }
-
-
-
                 }
-
-
             }
         });
 
         ManageCheckBoxVisibility();
-
-
 
         donationLabel.addMouseListener(new MouseAdapter() {
             @Override
@@ -276,15 +196,6 @@ public class Main extends JFrame   {
                 Desktop desktop = Desktop.getDesktop();
                 StringBuilder builder = new StringBuilder();
                 URI uri = null;
-                try {
-                    uri = new URI(
-                    builder.append(char1).append(char2).append(char3).append(char4).append(char5).append(char6).append(char7)
-                            .append(char8).append(char9).append(char10).append(char11).append(char12).append(char13).append(char14)
-                            .append(char15).append(charmac1).append(char15mac2).append(char15mac3).append(char16).append(char17).append(char18).append(char19).append(char20).append(char44).append(char45).append(char21)
-                            .append(char22).append(char23).toString());
-                } catch (URISyntaxException ex) {
-                    throw new RuntimeException(ex);
-                }
                 try {
                     desktop.browse(uri);
                 } catch (IOException ex) {
@@ -302,8 +213,6 @@ public class Main extends JFrame   {
                 DonationfontAttributes.put(TextAttribute.FOREGROUND, color   );
                 Font font = new Font(DonationfontAttributes);
                 donationLabel.setFont(font);
-
-
             }
         });
         donationLabel.addMouseListener(new MouseAdapter() {
@@ -328,7 +237,6 @@ public class Main extends JFrame   {
         Font fontHelp = new Font(HelpfontAttributes);
         NeedHelp.setFont(fontHelp);
 
-
         NeedHelp.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseEntered(MouseEvent e) {
@@ -338,7 +246,6 @@ public class Main extends JFrame   {
                 Font hoverFont = new Font(HelpfontAttributes);
                 NeedHelp.setFont(hoverFont);
             }
-
             @Override
             public void mouseExited(MouseEvent e) {
                 super.mouseExited(e);
@@ -348,7 +255,6 @@ public class Main extends JFrame   {
                 NeedHelp.setFont(defaultFont);
             }
         });
-
         NeedHelp.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -356,34 +262,26 @@ public class Main extends JFrame   {
                 OpenGuide.open();
             }
         });
-
-
         useBicicle.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 isBicicleEnable = !isBicicleEnable;
-
             }
-
         });
         useAntiCaptchaCheckBox.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 isAnticaptchaEnable = !isAnticaptchaEnable;
-
             }
-
         });
         useTeleportCheckBox.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 isTeleportaEnable = !isTeleportaEnable;
-
             }
-
         });
 
 
@@ -394,7 +292,6 @@ public class Main extends JFrame   {
                 super.mouseEntered(e);
                 useBicicle.setToolTipText("<html>If you want the bot to use bicycle,<br>set bicycle item as hotkey number 2.</html>");
             }
-
             @Override
             public void mouseExited(MouseEvent e) {
                 super.mouseExited(e);
@@ -408,15 +305,13 @@ public class Main extends JFrame   {
                 super.mouseEntered(e);
                 useAntiCaptchaCheckBox.setToolTipText("<html>Enable to avoid the bot getting <br>caught by the anti-bot system</html>");
             }
-
             @Override
             public void mouseExited(MouseEvent e) {
                 super.mouseExited(e);
                 useAntiCaptchaCheckBox.setToolTipText(null); // Rimuovi il tooltip quando il mouse esce
             }
         });
-
-
+        
         useTeleportCheckBox.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseEntered(MouseEvent e) {
@@ -440,10 +335,6 @@ public class Main extends JFrame   {
 
                 if (WorkFlowManager.isRunning) {
                     canIIncreaseEncounter = false;
-
-
-
-
                     stioppinglabel.setText("Status: Stopped");
                     startingLabel.setText("     ");
                     WorkFlowManager.isRunning = false;
@@ -455,9 +346,9 @@ public class Main extends JFrame   {
             }
         });
 
+        
         STARTHUNTINGButton.addActionListener(new ActionListener() {
             int selectedIndex = comboBox1.getSelectedIndex();
-
             @Override
             public void actionPerformed(ActionEvent e) {
                 if(Main.sleectIndexCombobox1 != -1){
@@ -487,60 +378,34 @@ public class Main extends JFrame   {
                             canIIncreaseEncounter = true;
                             botThread.start();
                         }}
-
                 }
                 else{
                     JOptionPane.showMessageDialog(Main.mainFrame, "You must Select a Location first!", "Alert", JOptionPane.WARNING_MESSAGE);
 
                 }
 
-
-
-
-
-
-
             }
         });
+        
         Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
         if(screenRect.width != 1920 ||  screenRect.height != 1080  ){
             JOptionPane.showMessageDialog(Main.mainFrame, "Your screen resolution must be set to 1920*1080 and scale to 100% \n\n--You need to change your operative system resolution parameter--", "Alert", JOptionPane.WARNING_MESSAGE);
             System.exit(0);
 
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 
    public void ManageCheckBoxVisibility(){
-
         useAntiCaptchaCheckBox.setVisible(true);
         useTeleportCheckBox.setVisible(true);
         useBicicle.setVisible(true);
-
-
+       
         if(comboBox1.getSelectedItem() == null){
             useBicicle.setEnabled(false);
             useTeleportCheckBox.setEnabled(false);
             useAntiCaptchaCheckBox.setEnabled(false);
             useAntiCaptchaCheckBox.setEnabled(false);
-
-
         }
         else{
             if(currentSelectLocation.equals("CELESTIC TOWN (Sinnoh), x5 Psyduck, Sweet Scent hunting" )  || currentSelectLocation.equals("ETERNA CITY (Sinnoh), x3 Bidoof/Buizel, Sweet Scent hunting")  || currentSelectLocation.equals("FLOAROMA TOWN (Sinnoh), x3 Shinx/Pachirisu, Sweet Scent hunting") || currentSelectLocation.equals( "SANDGEM TOWN (Sinnoh), x5 Wingull, Sweet Scent hunting" )){
@@ -551,9 +416,7 @@ public class Main extends JFrame   {
                 useTeleportCheckBox.setVisible(true);
                 useBicicle.setEnabled(true);
                 useBicicle.setVisible(true);
-
             }
-
        if(currentSelectLocation.equals("SNOWPOINT CITY (Sinnoh), x5 Snover/Noctowl, Sweet Scent hunting") || currentSelectLocation.equals( "VERMILION CITY (Kanto), x5 Tentacool, Sweet Scent hunting") || currentSelectLocation.equals("ROUTE 4 (Kanto), x3 Zubat, Sweet Scent hunting")   || currentSelectLocation.equals( "LAVENDER TOWN 1 (Kanto), x3 Gastly, Sweet Scent hunting")  ){
                 isBicicleEnable = false;
                 useAntiCaptchaCheckBox.setEnabled(true);
@@ -564,8 +427,6 @@ public class Main extends JFrame   {
 
                 useBicicle.setEnabled(false);
                 useBicicle.setSelected(false);
-
-
             }
 
             if(currentSelectLocation.equals("CREATE CUSTOM PATH..." )){
@@ -573,7 +434,6 @@ public class Main extends JFrame   {
                 useTeleportCheckBox.setEnabled(false);
                 useAntiCaptchaCheckBox.setEnabled(false);
                 useAntiCaptchaCheckBox.setEnabled(false);
-
             }
             else{
                 if (!currentSelectLocation.equals("CELESTIC TOWN (Sinnoh), x5 Psyduck, Sweet Scent hunting") &&
@@ -590,77 +450,45 @@ public class Main extends JFrame   {
                     useTeleportCheckBox.setEnabled(false);
                     useAntiCaptchaCheckBox.setEnabled(false);
                     useAntiCaptchaCheckBox.setEnabled(false);
-
                 }
-
             }
-
-
-
-
         }
-
-
-
     }
-
-
-
-
-
-
-
-
-
     public static Main GetInstance(){
         return instance;
     }
-
 
     public String getSelectedLocation(){
         return (String)comboBox1.getSelectedItem();
     }
 
-
     public int getSliderValue(){
         return timeSlider.getValue();
     }
 
-
     public boolean isAnticapthaEnable(){
-
         return useAntiCaptchaCheckBox.isSelected();
     }
+    
     public boolean isTeleportaEnable(){
-
         return useTeleportCheckBox.isSelected();
     }
+    
     public boolean isBicicleEnable(){
-
         return useBicicle.isSelected();
     }
-
-
-
-
+    
     public static void main(String[] args) throws AWTException {
         new Main();
-
-
-
-
     }
 
     public  void SetTimedOut(){
         startingLabel.setText("Status: TimedOut");
         stioppinglabel.setText("     ");
-
     }
-
-
+    
     public void changeLabelsAlertAntiTrade() {
         Toolkit.getDefaultToolkit().beep();
-
         startingLabel.setText("     ");
         stioppinglabel.setText("Status: Forced Stopped");
         JOptionPane.showMessageDialog(this, "                    The game has been closed due to a trade request received.\nThis action was taken to prevent bot from getting stuck and suspected by other player.", "Alert", JOptionPane.WARNING_MESSAGE);
@@ -669,14 +497,12 @@ public class Main extends JFrame   {
         botThread.interrupt();
         botThread = null;
     }
-
+    
     public void increaseEncounterLabel(int numberToSum){
         if(canIIncreaseEncounter){
             encounter += numberToSum;
             PokemonEncouterLabel.setText("Total Pokemons Encoutered: "+ encounter);
-
         }
-
     }
 
     private  String[] mergeArrays(String[] array1, String[] array2) {
@@ -694,6 +520,7 @@ public class Main extends JFrame   {
 
         return result;
     }
+    
     private static String[] reduceArrayLength(String[] array, int newLength) {
         // Verifica se la nuova lunghezza è valida
         if (newLength < 0 || newLength > array.length) {
@@ -720,13 +547,11 @@ public class Main extends JFrame   {
         for (String location: locationsOption
         ) {
             comboBox1.addItem(location);
-
-
         }
         comboBox1.setSelectedIndex(-1);
-
         dontMOve = false;
     }
+    
     public static void setEnabledRecursively(Container container, boolean enabled) {
         Component[] components = container.getComponents();
         for (Component component : components) {
@@ -737,20 +562,14 @@ public class Main extends JFrame   {
         }
     }
 
-    // Metodo per disabilitare ricorsivamente tutti i componenti in un contenitore
     private void setDisabledRecursively(Container container) {
         setEnabledRecursively(container, false);
     }
-
 
     public void stopbot(){
 
         if (WorkFlowManager.isRunning) {
             canIIncreaseEncounter = false;
-
-
-
-
             stioppinglabel.setText("Status: Forced Stop");
             startingLabel.setText("     ");
             WorkFlowManager.isRunning = false;
@@ -760,6 +579,4 @@ public class Main extends JFrame   {
 
         }
     }
-
-
 }
