@@ -65,29 +65,29 @@ public class FindEscapeTime {
     }
 
     private static BufferedImage CutImage(BufferedImage immagineOriginale, Point init, Point end) {
-        // Assicurati che le coordinate siano valide
+
         if (init.x < 0) init.x = 0;
         if (init.y < 0) init.y = 0;
         if (end.x > immagineOriginale.getWidth()) end.x = immagineOriginale.getWidth();
         if (end.y > immagineOriginale.getHeight()) end.y = immagineOriginale.getHeight();
 
-        // Calcola le dimensioni del rettangolo da ritagliare
+      
         int larghezza = end.x - init.x;
         int altezza = end.y - init.y;
 
-        // Crea un nuovo BufferedImage con le dimensioni del rettangolo
+ 
         BufferedImage immagineRitagliata = new BufferedImage(larghezza, altezza, BufferedImage.TYPE_INT_ARGB);
 
-        // Ottieni il Graphics2D per il nuovo BufferedImage
+      
         Graphics2D g = immagineRitagliata.createGraphics();
 
-        // Ritaglia e disegna l'area specificata nell'immagine originale nel nuovo BufferedImage
+      
         g.drawImage(immagineOriginale, 0, 0, larghezza, altezza, init.x, init.y, end.x, end.y, null);
 
-        // Rilascia le risorse del Graphics2D
+   
         g.dispose();
 
-        // Specifica il percorso completo della cartella sul desktop
+
 
         return immagineRitagliata;
     }
