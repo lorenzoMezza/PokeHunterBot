@@ -63,7 +63,5 @@ PokeHunterBot prioritizes safety and user experience:
 
 ## Guides and Tutorial
 
-- [Shiny Pokémon Hunter Guide](#link-to-shiny-pokémon-hunter-guide)
-- [Custom Path Editor Guide](#link-to-custom-path-editor-guide)
 - [YouTube Video Tutorial](#link-to-youtube-video-tutorial)
 
