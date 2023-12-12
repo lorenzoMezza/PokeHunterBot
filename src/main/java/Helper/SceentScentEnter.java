@@ -23,7 +23,7 @@ public class SceentScentEnter {
         dialog.setLocationRelativeTo(parentFrame);
         dialog.setResizable(false);
 
-        // JPanel per il titolo
+
         JPanel titlePanel = new JPanel();
         JLabel titleLabel = new JLabel("<html>Number of Available Sweet Scent moves<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(PP 0 to 32):</html>");
         titleLabel.setHorizontalAlignment(SwingConstants.CENTER); // Imposta l'allineamento orizzontale al centro
@@ -31,12 +31,12 @@ public class SceentScentEnter {
 
 
 
-        // JTextField con il filtro per i numeri
+
         JTextField numberField = new JTextField(6); // Imposta una larghezza minore
         numberField.setDocument(new NumberDocument());
         numberField.setHorizontalAlignment(JTextField.CENTER); // Centra il testo nel campo di input
 
-        // JPanel per i bottoni
+  
         JPanel buttonPanel = new JPanel();
         JButton okButton = new JButton("OK");
         JButton cancelButton = new JButton("Cancel");
@@ -65,14 +65,14 @@ public class SceentScentEnter {
         buttonPanel.add(okButton);
         buttonPanel.add(cancelButton);
 
-        // Utilizza GridBagLayout per posizionare l'input field al centro
+     
         JPanel inputPanel = new JPanel(new GridBagLayout());
         GridBagConstraints constraints = new GridBagConstraints();
         constraints.insets = new Insets(10, 10, 10, 10);
         constraints.fill = GridBagConstraints.HORIZONTAL;
         inputPanel.add(numberField, constraints);
 
-        // Aggiungi i pannelli al frame
+
         dialog.add(titlePanel, BorderLayout.NORTH);
         dialog.add(inputPanel, BorderLayout.CENTER);
         dialog.add(buttonPanel, BorderLayout.SOUTH);
