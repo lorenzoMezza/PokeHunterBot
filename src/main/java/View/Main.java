@@ -17,7 +17,6 @@ import java.util.Objects;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 
-
 public class Main extends JFrame   {
     private boolean isTeleportaEnable = false;
     private boolean isAnticaptchaEnable= true;;
