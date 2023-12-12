@@ -20,7 +20,7 @@ public class ShinyChecker {
     private final int tollerenace = 20;
 
 
-
+    
     //Psyduck Wingull Noctowl Snover
     private final Point[] firstBy5 = {new Point(764 ,100 ) , new Point(816 ,111)};
     private final Point[]  secondBy5 = {new Point(1024, 100) , new Point(1072, 112)};
