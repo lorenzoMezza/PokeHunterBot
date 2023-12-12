@@ -8,8 +8,6 @@ import java.awt.*;
 import java.util.Random;
 
 public class WorkFlowManager {
-    // usare up down ecc ecc fa click per clik , usere up 10  o down 20 fa click per un toto di tempo e usare solo 10 o 29 o 39 fa una pausa.sleep tutto in millisecondi!
-    // e usare solo un numero fa una pausa di tot millisec
     Random random = new Random();
 
     public static boolean isRunning = false;
@@ -101,6 +99,7 @@ public class WorkFlowManager {
     private final String[][] NEVEPOLI_POSSIBILES_Path = { SWEET_CATHCING_NEVEPOLI,NEVEPOLI_PATH_NORMAL,null,NEVEPOLI_PATH_TELEPORT,NEVEPOLI_PATH_AntiCheat };
     Main mainView = Main.GetInstance();
     public static int SelectedTimer;
+    
     public WorkFlowManager() throws AWTException {
         botInstance = new bot();
         waiter = Waiter.instance;
