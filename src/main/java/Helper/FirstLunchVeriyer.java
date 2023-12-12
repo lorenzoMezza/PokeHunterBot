@@ -14,7 +14,7 @@ public class FirstLunchVeriyer {
 
             if (!prefs.getBoolean(PREF_KEY_FIRST_LAUNCH, false)) {
                 prefs.putBoolean(PREF_KEY_FIRST_LAUNCH, true);
-                CounterApi.increaseCounter();
+        
                 return true;
             } else {
                 return false;
